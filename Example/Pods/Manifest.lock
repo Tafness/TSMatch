@@ -1,0 +1,16 @@
+PODS:
+  - TSMatch (0.1.0)
+
+DEPENDENCIES:
+  - TSMatch (from `../`)
+
+EXTERNAL SOURCES:
+  TSMatch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TSMatch: 47065943e27648fd3aff2cf601abe3c1096e975e
+
+PODFILE CHECKSUM: dd3fa0e0c59afce892579a4c2aea513423d2bc0f
+
+COCOAPODS: 1.11.3

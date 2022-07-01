@@ -1,0 +1,22 @@
+{
+  "name": "TSMatch",
+  "version": "0.1.0",
+  "summary": "A short description of TSMatch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tafness/TSMatch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tafness": "soar454408556@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/Tafness/TSMatch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TSMatch/Classes/**/*"
+}

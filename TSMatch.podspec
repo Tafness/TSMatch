@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TSMatch'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TSMatch.'
+  s.version          = '1.0.0'
+  s.summary          = '通胜科技赛事api'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+通胜科技赛事用api，需要在平台注册app_id后使用
                        DESC
 
   s.homepage         = 'https://github.com/Tafness/TSMatch'
@@ -30,13 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'TSMatch/Classes/**/*'
+  s.ios.vendored_frameworks = 'TSMatch.framework'
+
+  # s.source_files = 'TSMatch/Classes/**/*'
   
   # s.resource_bundles = {
   #   'TSMatch' => ['TSMatch/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

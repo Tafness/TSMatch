@@ -1,0 +1,6 @@
+framework module TSMatch {
+  umbrella header "TSMatch.h"
+
+  export *
+  module * { export * }
+}
